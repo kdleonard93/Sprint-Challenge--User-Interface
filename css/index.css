@@ -189,7 +189,6 @@ a:hover {
 
 img{
     padding: 15px;
-    margin: 0 auto;
 }
 
 button {
@@ -199,8 +198,13 @@ button {
     margin: 5px;
 }
 
+button:hover {
+    background-color: black;
+    color: white;
+}
+
 .bottom-section {
-    desiplay: flex;
+    display: flex;
     flex-wrap: wrap;
     padding: 25px 0 25px 0;
 }

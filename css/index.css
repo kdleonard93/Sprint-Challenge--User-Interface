@@ -71,6 +71,12 @@ p {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 992px){
+    .container {
+        background-color: lightgoldenrodyellow;
+        }
+    }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +110,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +149,127 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width:300%;
+    }
+    to {
+        margin-left:0%;
+        width: 100%;
+    }
+}
+
+
+.top-img {
+ padding: 15px;
+ width: 800px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.top-section {
+    border-bottom: 1px dashed black;
+    padding-left: 25px;
+}
+
+.middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 5px;
+}
+.blocks {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin: 5px auto;
+    padding-bottom: 10px;
+}
+
+img{
+    padding: 15px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0 25px 0;
+}
+
+.bottom-p {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+}
+
+.box-1 {
+    background-color: teal ;
+}
+
+.box-2{
+    background-color: gold;
+}
+
+.box-3 {
+    background-color: cadetblue ;
+}
+
+.box-4 {
+    background-color: coral;
+}
+
+.box-5 {
+    background-color: crimson;
+}
+
+.box-6 {
+    background-color: forestgreen;
+}
+
+.box-7 {
+    background-color: darkorchid;
+}
+
+.box-8 {
+    background-color: hotpink;
+}
+
+.box-9 {
+    background-color: indigo;
+    }
+
+.box-10 {
+    background-color: dodgerblue;
+        } 

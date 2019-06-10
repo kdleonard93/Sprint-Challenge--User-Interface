@@ -169,6 +169,36 @@ a:hover {
     text-decoration: underline;
 }
 
+.top-section {
+    border-bottom: 1px dashed black;
+    padding-left: 25px;
+}
+
+.middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 5px;
+}
+.blocks {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin: 5px auto;
+    padding-bottom: 10px;
+}
+
+img{
+    padding: 15px;
+    margin: 0 auto;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+}
+
 .box-1 {
     background-color: teal ;
 }

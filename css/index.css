@@ -71,6 +71,12 @@ p {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 992px){
+    .container {
+        background-color: lightgoldenrodyellow;
+        }
+    }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;

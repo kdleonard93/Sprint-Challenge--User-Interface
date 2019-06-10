@@ -155,7 +155,20 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     padding: 15px;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width:300%;
+    }
+    to {
+        margin-left:0%;
+        width: 100%;
+    }
+}
+
 
 .top-img {
  padding: 15px;

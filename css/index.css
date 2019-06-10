@@ -155,7 +155,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     padding: 15px;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-name: slidein;
 }
 @keyframes slidein {

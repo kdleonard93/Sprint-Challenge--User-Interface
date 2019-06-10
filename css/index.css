@@ -199,6 +199,18 @@ button {
     margin: 5px;
 }
 
+.bottom-section {
+    desiplay: flex;
+    flex-wrap: wrap;
+    padding: 25px 0 25px 0;
+}
+
+.bottom-p {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+}
+
 .box-1 {
     background-color: teal ;
 }
